@@ -246,7 +246,7 @@ CREATE TRIGGER trigger_update_pocket
 AFTER INSERT OR UPDATE OR DELETE ON pocket
 FOR EACH ROW
 EXECUTE FUNCTION update_pocket();
-`
+
 
 -- function and trigger for update in table transaction
 
